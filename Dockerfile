@@ -5,5 +5,5 @@ RUN mv kustomize_1.0.10_linux_amd64 kustomize && \
     chmod +x ./kustomize && \
     mv ./kustomize /usr/bin/  && \ 
     apk --update add openjdk7-jre && \
-    gcloud components install app-engine-java kubectl  && \
+    gcloud components install app-engine-java kubectl && \
     apk add git
